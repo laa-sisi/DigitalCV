@@ -1,0 +1,40 @@
+body {
+  background-image: url("pictures/tracer.png");
+  justify-content: center;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  border: none;
+  border-radius: 10px; /* Smaller rounded edges */
+  width: 90%;
+}
+
+.mainCont {
+  display: flex;
+  justify-content: center;
+}
+.main-L {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  gap: 40px;
+}
+.main-R {
+  width: 100%;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  
+}
+
+.desk {
+  display: flex;
+  gap: 4%;
+}
+
+.langUni {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}

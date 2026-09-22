@@ -1,0 +1,143 @@
+@import url("fonts.googleapis.com/css2%3Ffamily=Press+Start+2P&display=swap.css");
+
+.headNav {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  padding: 0% 2% 0% 2%;
+  border-radius: 10px; /* Smaller rounded edges */
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+  padding-bottom: 0.4%;
+  padding-top: 0.4%;
+  width: 90%;
+}
+.headNavCont {
+  padding: 1% 1% 1% 1%;
+
+  display: flex;
+  justify-content: center;
+}
+
+/*------------LEFT SIDE--------------*/
+.headNav-L {
+  display: flex;
+  align-items: center;
+  color: #211f1f;
+  flex: 1;
+  font-family: "Press Start 2P", system-ui;
+  font-size: 125%;
+  text-shadow: 0 0 2px #fcfcfc;
+}
+.profilePic .pfp {
+  width: 90px;
+  height: auto;
+  border-radius: 50%; /* Makes it circular */
+  object-fit: cover; /* Ensures it stays within bounds */
+  border: 3px solid #86abbd; /* Golden border */
+}
+.title {
+  font-size: large;
+  font-family: "IBM Plex Mono", monospace;
+}
+
+.introductionNav {
+  padding-left: 1.5%;
+}
+
+/*------------RIGHT SIDE--------------*/
+
+.headNav-R {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* Aligns everything to the right */
+  justify-content: center; /* Centers content inside */
+  gap: 10px; /* Adds spacing between elements */
+}
+
+.navTags {
+  display: flex;
+  gap: 10px; /* Adds spacing between buttons */
+  flex-wrap: wrap; /* Prevents overflow on small screens */
+  justify-content: flex-end; /* Aligns tags to the right */
+}
+
+.navContact {
+  display: flex;
+
+  flex-direction: row; /* Stack elements properly */
+
+  font-family: "VT323", monospace;
+
+  gap: 10px; /* Adds spacing between contact & button */
+}
+
+.contact {
+  display: flex;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 1rem;
+  text-align: right;
+}
+
+.BtnLinkedIn {
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position: relative;
+  background: #0274b3;
+}
+
+.svgIcon {
+  transition-duration: 0.3s;
+}
+
+.svgIcon path {
+  fill: white;
+}
+
+.text {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  width: 120px;
+  font-weight: 600;
+  opacity: 0;
+  transition-duration: 0.4s;
+}
+
+.BtnLinkedIn:hover {
+  width: 110px;
+  transition-duration: 0.4s;
+  border-radius: 30px;
+}
+
+.BtnLinkedIn:hover .text {
+  opacity: 1;
+  transition-duration: 0.4s;
+}
+
+.BtnLinkedIn:hover .svgIcon {
+  opacity: 0;
+  transition-duration: 0.3s;
+}
+
+.globe {
+  width: 100%;
+  height: auto;
+  animation: spin 0s linear infinite; /* Rotating effect */
+  border-radius: 50%; /* Makes it a circle */
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

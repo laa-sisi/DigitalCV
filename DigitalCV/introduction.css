@@ -14,7 +14,7 @@
   padding-left: 4%;
 
   font-size: x-small;
-  font-family: "Press Start 2P", system-ui;
+  font-family: "JetBrains Mono", monospace;
 }
 
 .introductionTitle {
@@ -26,8 +26,7 @@
 }
 .introductionTxt {
   padding-left: 3%;
-
-  font-family: "IBM Plex Mono", monospace;
+  font-family: "JetBrains Mono", monospace;
 }
 
 .intrTxtP1 {
@@ -57,7 +56,7 @@
   align-items: flex-start;
   color: #262626;
   font-size: medium;
-  font-family: "IBM Plex Mono", monospace;
+  font-family: "JetBrains Mono", monospace;
   padding-right: 8%;
   
 }
@@ -113,13 +112,13 @@
   align-items: flex-start;
   color: #262626;
   font-size: medium;
-  font-family: "IBM Plex Mono", monospace;
+  font-family: "JetBrains Mono", monospace;
 }
 
 .edu {
   color: #424242;
   font-size: 18px;
-  font-family: "Press Start 2P", system-ui;
+  font-family: "JetBrains Mono", monospace;
   text-transform: uppercase;
   letter-spacing: 1px;
   border-bottom: 2px solid #424242; 

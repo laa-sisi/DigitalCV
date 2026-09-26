@@ -24,8 +24,8 @@
   display: flex;
   align-items: center;
   color: #211f1f;
+  font-family: "JetBrains Mono", monospace;
   flex: 1;
-  font-family: "Press Start 2P", system-ui;
   font-size: 125%;
   text-shadow: 0 0 2px #fcfcfc;
 }
@@ -38,11 +38,17 @@
 }
 .title {
   font-size: large;
-  font-family:;
+  
 }
 
 .introductionNav {
   padding-left: 1.5%;
+  
+}
+.fullName {
+  font-family: "Orbitron", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.5px;
 }
 
 /*------------RIGHT SIDE--------------*/
@@ -53,6 +59,7 @@
   align-items: flex-end; /* Aligns everything to the right */
   justify-content: center; /* Centers content inside */
   gap: 10px; /* Adds spacing between elements */
+  
 }
 
 .navTags {
@@ -67,16 +74,16 @@
 
   flex-direction: row; /* Stack elements properly */
 
-  font-family: "VT323", monospace;
-
   gap: 10px; /* Adds spacing between contact & button */
 }
 
 .contact {
   display: flex;
-  font-family: "IBM Plex Mono", monospace;
+  font-family: "Orbitron", sans-serif;
   font-size: 1rem;
   text-align: right;
+    font-weight: 700;
+  letter-spacing: 0.5px;
 }
 
 .BtnLinkedIn {

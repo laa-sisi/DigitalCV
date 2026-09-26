@@ -1,5 +1,5 @@
 body {
-  background-image: url("pictures/tracer.png");
+  background-image: url("pictures/miku2.jpg");
   justify-content: center;
   
 }
@@ -39,4 +39,12 @@ body {
   display: flex;
   flex-direction: column;
   gap: 40px;
+}
+
+.profile-link {
+  color: #33ff33; /* same green as your body text */
+  text-decoration: underline; /* keep or remove, your call */
+}
+.profile-link:visited {
+  color: #33ff33; /* prevents purple after clicking */
 }

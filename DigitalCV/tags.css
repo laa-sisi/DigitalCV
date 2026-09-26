@@ -3,7 +3,7 @@ button::after {
   font-size: 25px;
   border-radius: 5px;
   border: none; /* Remove the border */
-  font-family: "VT323", monospace;
+  font-family: "JetBrains Mono", monospace;
   color: rgb(0, 0, 0);
   background-color: transparent;
   position: relative;

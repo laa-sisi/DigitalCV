@@ -75,7 +75,7 @@ body::-webkit-scrollbar-thumb {
 
 .keyboardBar {
   padding-bottom: 2%;
-  font-family: "IBM Plex Mono", monospace;
+  font-family: "JetBrains Mono", monospace;
   font-size: medium;
   display: flex;
   white-space: nowrap;

@@ -9,8 +9,6 @@
   padding-right: 4.5%;
   padding-top: 1%;
   align-items: center; /* Ensures it's centered */
-
-  
 }
 
 .monitor {
@@ -76,7 +74,7 @@ body::-webkit-scrollbar-thumb {
 .keyboardBar {
   padding-bottom: 2%;
   font-family: "JetBrains Mono", monospace;
-  font-size: medium;
+  font-size: large;
   display: flex;
   white-space: nowrap;
   gap: 1%;

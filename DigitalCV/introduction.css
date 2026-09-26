@@ -12,9 +12,11 @@
 .introduction {
   color: #424242;
   padding-left: 4%;
-
-  font-size: x-small;
+  font-size: large;
   font-family: "JetBrains Mono", monospace;
+}
+.fullName {
+  font-size: 2rem; /* increase this value as needed - try 1.5rem, 2rem, 2.5rem, etc. */
 }
 
 .introductionTitle {
@@ -31,14 +33,13 @@
 
 .intrTxtP1 {
   font-weight: bold;
-  font-size: medium;
-
+  font-size: 1.25rem; /* was medium (~16px), now ~20px */
 }
 
 .introTxtP2 {
   color: #262626;
-  font-size: medium;
-  
+  font-size: 1.1rem; /* was medium, now ~17.6px */
+  line-height: 1.6; /* adds spacing between lines for readability */
 }
 
 .langCont {
@@ -117,7 +118,6 @@
 
 .edu {
   color: #424242;
-  font-size: 18px;
   font-family: "JetBrains Mono", monospace;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -125,5 +125,5 @@
   padding-bottom: 5px;
   margin-bottom: 10px;
 
-  font-size: x-small;
+  font-size: large;
 }

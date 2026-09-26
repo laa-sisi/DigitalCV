@@ -106,7 +106,7 @@ I also place great importance on a positive working atmosphere and building good
 
 IT and cybersecurity are among my main interests. In my free time, I continuously develop my knowledge through self-study, with a particular focus on areas of cybersecurity that differ from my professional responsibilities. I believe that maintaining a balance between professional work and personal interests helps me keep my passion for technology fresh and enjoyable.
 
-I grew up in a bilingual environment, which has allowed me to develop strong communication skills in both Polish and English. I am comfortable communicating in both languages verbally, and I am able to adapt my communication style to different audiences and situations.
+I grew up in a bilingual household, which has allowed me to develop strong communication skills in both Polish and English. I am comfortable communicating in both languages verbally, and I am able to adapt my communication style to different audiences and situations.
 
 I am looking to further develop my career on the technical side while also leveraging and expanding my existing technical background. I continuously work on developing my skills through self-study and enjoy participating in IT and cybersecurity events, which allows me to stay up to date with the latest developments and trends in the industry.
 

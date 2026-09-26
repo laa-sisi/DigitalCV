@@ -1,6 +1,7 @@
 body {
   background-image: url("pictures/tracer.png");
   justify-content: center;
+  
 }
 .main {
   display: flex;
@@ -31,6 +32,7 @@ body {
 .desk {
   display: flex;
   gap: 4%;
+  
 }
 
 .langUni {

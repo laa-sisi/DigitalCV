@@ -1,6 +1,6 @@
 .introductionCont {
-  border-radius: 10px; /* Smaller rounded edges */
-  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+  border-radius: 10px; 
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3); 
   padding-right: 3%;
   background-color: rgb(255, 255, 255);
   width: 85%;
@@ -39,16 +39,17 @@
 .introTxtP2 {
   color: #262626;
   font-size: medium;
+  
 }
 
 .langCont {
   
+  background-color: #ffffff;
   background-size: cover;
-  background-attachment: scroll; /* Fixed background often doesn't work well on mobile */
+  background-attachment: scroll;
   border: none;
-  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3); /* Stronger shadow */
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
   border-radius: 12px;
-
   width: fit-content;
   padding: 4% 5%;
   display: flex;
@@ -58,14 +59,14 @@
   font-size: medium;
   font-family: "IBM Plex Mono", monospace;
   padding-right: 8%;
+  
 }
 
 .lang {
   color: #262626;
   padding-bottom: 5px;
-  font-size: x-small;
-  font-family: "Press Start 2P", system-ui;
-  text-transform: uppercase;
+  font-size: 18px;
+
   letter-spacing: 1px;
   border-bottom: 2px solid #262626;
   padding-left: 5px;
@@ -79,6 +80,7 @@
 .langLi ul {
   list-style: none;
   padding: 0;
+  
 }
 
 .langLi li {
@@ -86,31 +88,26 @@
   margin: 5px 0;
   border-radius: 6px;
   display: flex;
-  align-items: center; /* Align text and flag */
-  gap: 10px; /* Space between flag and text */
-  transition: background 0.3s ease, transform 0.2s;
+  align-items: center; 
+  gap: 10px; 
+
   background: rgb(255, 255, 255);
 }
 
-.langLi li:hover {
-  background: rgba(231, 229, 229, 0.1);
-  transform: translateX(5px);
-}
-
 .langLi img {
-  width: 20px; /* Small flag */
+  width: 20px; 
   height: auto;
-  border-radius: 3px; /* Smooth edges */
+  border-radius: 3px; 
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
 }
 
 .eduCont {
   background-color: rgb(255, 255, 255);
   border: none;
-  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3); /* Stronger shadow */
-  border-radius: 12px; /* Softer edges */
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3); 
+  border-radius: 12px; 
   width: fit-content;
-  padding: 20px 25px; /* Improved padding */
+  padding: 20px 20px; 
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -121,11 +118,11 @@
 
 .edu {
   color: #424242;
-  
+  font-size: 18px;
   font-family: "Press Start 2P", system-ui;
   text-transform: uppercase;
   letter-spacing: 1px;
-  border-bottom: 2px solid #424242; /* Underline effect */
+  border-bottom: 2px solid #424242; 
   padding-bottom: 5px;
   margin-bottom: 10px;
 

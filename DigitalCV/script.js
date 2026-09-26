@@ -35,14 +35,39 @@ const messages = {
         
     `,
   Environments: `<h1><span class="job-title">Environments</span></h1>
-        I specialize in gray box web application penetration testing using tools like Burp Suite, Metasploit, and Nmap. Following a logical pentesting workflow, including Reconnaissance & Information Gathering, Scanning & Vulnerability Detection, Exploitation & Attack, Password Cracking & Authentication Attacks, Post-Exploitation & Further Enumeration, and Reporting & Documentation. Assesing vulnerabilities in accordance with the CVSS standard, focusing on the most critical security risks to web applications as outlined in the OWASP Top 10 standard awareness document.
+#Wireshark
+#Nmap
+#Burp Suite
+#OWASP ZAP
+#MobSF
+#Metasploit
+#Linux
+#Windows
+#Shodan
+#Microsoft Office
+#Microsoft Teams
+#SharePoint
+#OneDrive / Google Drive
+#Ticketing Systems
     `,
   Skills: `<h1><span class="job-title">Skills</span></h1>
-        Currently, I perform a leading role in identifying, analyzing, mitigating, and preventing security threats and incidents. Most of my work regarding incident response (IR) focuses on monitoring security alerts, logs, and network traffic for potential threats, investigating security incidents, creating detailed incident reports, timelines, and recommendations for future prevention, and conducting post-mortem reviews to improve incident response strategies. These tasks are a part of Incident Reporting & Documentation. I am familiar with security tools such as EDR, SIEM, and Forensics & Malware Analysis tools.
+#OSINT #Passive Reconnaissance
+#Active Reconnaissance
+#Threat Intelligence Gathering
+#Attack Surface Analysis
+#Service & Network Enumeration
+#Vulnerability Identification
+#Traffic Analysis
+#Desktop Application Testing
+#Google Dorks
+#Active Directory Basics
+#Teamwork & Communication Skills
+#Procedure Writing
         
         
     `,
   about: `<h1><span class="job-title">About Me</span></h1>
+
        I am a collaborative and team-oriented person who truly values working with others. Brainstorming is one of my favorite ways of approaching teamwork, as I enjoy exchanging ideas, learning from others, and contributing to finding effective solutions.
 
 I prefer to work in an organized and structured way, with a strong focus on prioritization, completing tasks, and maintaining a high standard of quality. Rather than starting multiple tasks at once and leaving them unfinished, I prefer to focus on one task at a time, make sure it is completed properly, and then move on to the next one.
@@ -52,6 +77,9 @@ I also place great importance on a positive working atmosphere and building good
 IT and cybersecurity are among my main interests. In my free time, I continuously develop my knowledge through self-study, with a particular focus on areas of cybersecurity that differ from my professional responsibilities. I believe that maintaining a balance between professional work and personal interests helps me keep my passion for technology fresh and enjoyable.
 
 I am looking to further develop my career on the technical side while also leveraging and expanding my existing technical background. I continuously work on developing my skills through self-study and enjoy participating in IT and cybersecurity events, which allows me to stay up to date with the latest developments and trends in the industry.
+
+You can find me on tryhackme at <a href="https://tryhackme.com/p/olacola" target="_blank" rel="noopener noreferrer">https://tryhackme.com/p/olacola</a>.
+As well as on github under <a href="https://github.com/laa-sisi" target="_blank" rel="noopener noreferrer">https://github.com/laa-sisi</a>.
 
                                                  ฅ^._.^ฅ      
                                                                            

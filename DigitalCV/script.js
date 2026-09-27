@@ -1,5 +1,5 @@
 const messages = {
-  Experience: `<h1><span class="job-title">Security Specialist </span></h1>
+  Experience: `<h1><span class="job-title">IT Security Specialist</span></h1>
    <span class="timeOrg">PZU Zdrowie.</span>
    <span class="timeOrg">January 2024 - August 2026</span>
 
@@ -9,7 +9,7 @@ const messages = {
 
 #Conducting penetration testing and security assessments of desktop applications and systems in accordance with OWASP Top 10 guidelines.
 
-#Leading the development and management of ICT security incident handling procedures, in compliance with the Polish National Cybersecurity System Act. 
+#Supporting the ICT security incident handling process by developing and updating procedure documentation in compliance with the Polish National Cybersecurity System Act. 
 
 #Performing continuous security monitoring, alert analysis, incident triage, and threat investigation to identify and respond to potential cybersecurity risks
   
@@ -21,7 +21,7 @@ const messages = {
 
 #Working with medical IT systems and applications.
 
-#Completing training in computer networking and cybersecurity.
+#Completing trainings in computer networking and cybersecurity.
 
 #Developing basic frontend projects and web interfaces.
 
@@ -34,7 +34,7 @@ const messages = {
 
         
     `,
-  Environments: `<h1><span class="job-title">Environments</span></h1>
+  Environments: `<h1><span class="job-title">Environments & tools I worked with:</span></h1>
 #Wireshark
 
 #Nmap
@@ -42,6 +42,10 @@ const messages = {
 #Network reconnaissance
 
 #Burp Suite
+
+#EDR
+
+#DLP
 
 #OWASP ZAP
 
@@ -67,7 +71,7 @@ const messages = {
 
 #Ticketing Systems
     `,
-  Skills: `<h1><span class="job-title">Skills</span></h1>
+  Skills: `<h1><span class="job-title">Skills I obtained:</span></h1>
 #OSINT 
 
 #Passive Reconnaissance
@@ -86,13 +90,17 @@ const messages = {
 
 #Desktop Application Testing
 
-#Google Dorks
+#Google Dorking
 
 #Active Directory Basics
 
 #Teamwork & Communication Skills
 
 #Procedure Writing
+
+#Exploitation Techniques
+
+As well as I am familiar with EU and Polish cybersecurity regulatory requirements (NIS2, KSC) and international standards (ISO 27001, NIST 800-61) as applied to incident response and security governance.
         
         
     `,
@@ -113,7 +121,7 @@ I am looking to further develop my career on the technical side while also lever
 You can find me on tryhackme at <a class="profile-link" href="https://tryhackme.com/p/olacola" target="_blank" rel="noopener noreferrer">https://tryhackme.com/p/olacola</a>.
 As well as on github under <a class="profile-link" href="https://github.com/laa-sisi" target="_blank" rel="noopener noreferrer">https://github.com/laa-sisi</a>.
 
-                                                 ฅ^._.^ฅ      
+                                                   
                                                                            
     `,
 };

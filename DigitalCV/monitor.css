@@ -55,6 +55,8 @@
   white-space: pre-wrap;
   word-break: break-word;
   max-height: 90%; /* Ensures it never overflows */
+  font-size: 1.1rem;      /* bump this up from whatever it currently is */
+  line-height: 1.6;
 }
 
 /* Entire scrollbar */

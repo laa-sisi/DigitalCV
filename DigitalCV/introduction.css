@@ -80,6 +80,7 @@
 .langLi {
   padding-left: 15px;
   margin-top: 10px;
+  white-space: nowrap;
 }
 
 .langLi ul {

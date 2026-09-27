@@ -50,9 +50,9 @@ body {
 }
 
 .profile-link {
-  color: #33ff33; /* same green as your body text */
+  color: #ff33e7; /* same green as your body text */
   text-decoration: underline; /* keep or remove, your call */
 }
 .profile-link:visited {
-  color: #33ff33; /* prevents purple after clicking */
+  color: #efc7ea; /* prevents purple after clicking */
 }

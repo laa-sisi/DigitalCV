@@ -1,3 +1,41 @@
+@media (max-width: 1420px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 20px;
+  }
+
+  .main-L {
+    display: flex;
+    flex-direction: row !important; /* Ensure row layout */
+
+    width: 100% !important; /* Make sure it stretches */
+  }
+  .introductionCont {
+    width: 55% !important;
+    height: auto;
+  }
+}
+
+/*-------------max-width: 1565px-------------*/
+@media (max-width: 1565px) {
+  .headNav {
+    padding-top: 1%;
+  }
+
+  .navTags {
+    padding-top: 2%;
+    display: flex;
+
+    justify-content: space-between !important;
+  }
+
+  .tag {
+    display: none;
+  }
+}
+
 @media (max-width: 1000px) {
   .headNav {
     padding-top: 1%;
@@ -6,10 +44,7 @@
   }
   .navContact {
     width: 100% !important;
-    display: flex;
-    align-items: center;
-    justify-content: space-between; /* pushes location left, LinkedIn right */
-    gap: 10px;
+    justify-content: baseline;
   }
 
   .navTags {
@@ -21,26 +56,23 @@
     font-size: 5px;
   }
 }
-
 @media (max-width: 680px) {
   .headNav {
     padding-top: 1%;
     display: flex;
     flex-direction: column;
-    font-size: 10px !important;
+    font-size: 10px !important; /* Make text smaller */
   }
   .navContact {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: baseline;
+
     width: 100%;
-    gap: 10px;
   }
   .contact {
     font-size: 14px;
   }
 }
-
+/*-------------max-width: 1565px-------------*/
 @media (max-width: 601px) {
   .headNav {
     padding-left: 1%;
@@ -48,13 +80,8 @@
     display: flex;
     flex-direction: column;
   }
-  .navContact {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    gap: 10px;
-  }
+  
+
   .contact {
     font-size: 12px;
   }
@@ -67,12 +94,101 @@
 
 @media (max-width: 1117px) {
   .navContact {
-    width: 100%; /* was 50% — too narrow once stacked, causes cramped alignment */
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    width: 50%;
+    justify-content: baseline;
   }
   .navTags {
     display: none;
+  }
+}
+@media (max-width: 900px) {
+  .keyboardBar {
+    gap: 10px; /* Adds space between buttons */
+  }
+
+  .buttonP {
+    min-width: 8em !important; /* Reduce button width for better spacing */
+  }
+}
+@media (max-width: 755px) {
+  .buttonP {
+    min-width: 2em !important; /* Makes buttons even smaller */
+  }
+  .buttonP-top {
+    font-size: 0.7rem; /* Reduces text size */
+    padding: 5px 8px; /* Adjusts padding for a balanced look */
+  }
+  .card img {
+    width: 70px !important;
+    height: 70px !important;
+    object-fit: contain;
+  }
+
+  .langLi {
+    font-size: small;
+  }
+}
+@media (max-width: 817px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 20px;
+  }
+
+  .main-L {
+    display: flex;
+    flex-direction: column !important; /* Ensure row layout */
+
+    width: 100% !important; /* Make sure it stretches */
+  }
+  .introductionCont {
+    width: 100% !important;
+    height: auto;
+  }
+
+  .langUni {
+    display: flex;
+    flex-direction: row !important;
+    width: 100%;
+  }
+}
+
+@media (max-width: 796px) {
+  .langLi {
+    width: 100%;
+  }
+  .lang {
+    
+    font-size: xx-small !important;
+  }
+  .eduCont {
+    font-size: small !important;
+  }
+
+  .edu {
+    font-size: xx-small !important;
+  }
+  .langLi ul {
+width: 100%;
+}
+ .langLi img {
+    display: none;
+  }
+}
+
+@media (max-width: 570px) {
+
+ .buttonP-top {
+ font-size: 6.5px;
+
+}
+
+}
+
+@media (max-width: 480px) {
+  .headNav-L {
+    flex-direction: column;
+    align-items: flex-start;
   }
 }

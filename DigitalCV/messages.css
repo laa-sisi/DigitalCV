@@ -1,13 +1,13 @@
 .job-title{
-  color: rgb(255, 255, 255);
-  text-shadow: 0 0 2px #ffffff;
+  color: #e0f7fa;
+text-shadow: 0 0 6px rgba(79, 195, 247, 0.5);
 }
 .screen{
 font-family: "Courier New", monospace;
-  color: #33ff33;
-  text-shadow: 0 0 2px #33ff33;
+  color: #e0f7fa;
+text-shadow: 0 0 6px rgba(79, 195, 247, 0.5)
 }
 
 .timeOrg{
-  color: aqua;
+color: #b3e5fc;
 }

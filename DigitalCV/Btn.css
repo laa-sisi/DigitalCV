@@ -64,7 +64,8 @@
   width: calc(100% - 8px);
   height: calc(100% - 10px);
   box-sizing: content-box;
-  background-color: #014; /* Dark blue base */
+  background: linear-gradient(180deg, #a4cce0 0%, #000000 100%);
+color: #ffffff;
   background-image: radial-gradient(
       4px 8px at 4px calc(100% - 8px),
       rgba(255, 255, 255, 0.25),
@@ -139,5 +140,7 @@
   transform: scale(0.9);
   fill: #333333;
 }
+
+
 
 

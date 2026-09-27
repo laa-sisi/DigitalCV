@@ -1,7 +1,11 @@
 body {
-  background-image: url("pictures/miku2.jpg");
+  background-image: url("pictures/miku22.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   justify-content: center;
-  
+  min-height: 100vh;
 }
 .main {
   display: flex;
@@ -10,6 +14,7 @@ body {
   border-radius: 10px; /* Smaller rounded edges */
   width: 90%;
 }
+
 
 .mainCont {
   display: flex;
@@ -26,14 +31,17 @@ body {
   display: flex;
   flex: 1;
   flex-direction: column;
-  
 }
 
 .desk {
-  display: flex;
+    display: flex;
   gap: 4%;
-  
+  padding-left: 4.5%;
+  padding-right: 4.5%;
+  box-sizing: border-box;
+  width: 100%;
 }
+
 
 .langUni {
   display: flex;

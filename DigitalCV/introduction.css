@@ -14,6 +14,7 @@
   padding-left: 4%;
   font-size: large;
   font-family: "JetBrains Mono", monospace;
+  
 }
 .fullName {
   font-size: 2rem; /* increase this value as needed - try 1.5rem, 2rem, 2.5rem, etc. */
@@ -59,6 +60,10 @@
   font-size: medium;
   font-family: "JetBrains Mono", monospace;
   padding-right: 8%;
+    width: 280px;
+  max-width: 100%;
+  box-sizing: border-box
+  
   
 }
 
@@ -106,7 +111,9 @@
   border: none;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3); 
   border-radius: 12px; 
-  width: fit-content;
+  width: 340px;        /* bumped up from 280px */
+  max-width: 100%;      /* never exceeds its parent on small screens */
+  box-sizing: border-box;
   padding: 20px 20px; 
   display: flex;
   flex-direction: column;
@@ -127,3 +134,8 @@
 
   font-size: large;
 }
+.introductionNav {
+  min-width: 0;
+  flex: 1;
+}
+
